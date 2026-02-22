@@ -1,0 +1,14 @@
+{
+  "name": "bench-ovencord",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@ovencord/discord.js": "latest",
+    "@ovencord/rest": "latest",
+    "@ovencord/ws": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

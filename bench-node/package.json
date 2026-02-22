@@ -1,0 +1,13 @@
+{
+  "name": "bench-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "latest",
+    "dotenv": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

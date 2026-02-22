@@ -1,0 +1,46 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "bench-ovencord",
+      "dependencies": {
+        "@ovencord/discord.js": "latest",
+        "@ovencord/rest": "latest",
+        "@ovencord/ws": "latest",
+      },
+      "devDependencies": {
+        "bun-types": "latest",
+      },
+    },
+  },
+  "packages": {
+    "@ovencord/builders": ["@ovencord/builders@1.12.5", "", { "dependencies": { "@ovencord/util": "^1.1.1", "discord-api-types": "^0.38.36", "ts-mixer": "^6.0.4", "tslib": "^2.8.1", "zod": "^4.3.6" } }, "sha512-I/fhoiXMAONlGt8SUjxXTnvMOPoFrCwICFoYUBba9v2jtfD0sfOzMIlHyMYPEvempLBSqqS5dulCzuomqskMoA=="],
+
+    "@ovencord/collection": ["@ovencord/collection@2.1.1", "", {}, "sha512-sQiKEcHO0vdjcfcz1MnXEudK/Yn77mBAjgC+wSgiFAYGbxo0Q6dPuy6b5pGSrwnJDditaaFZM67S2HopqZYmXA=="],
+
+    "@ovencord/discord.js": ["@ovencord/discord.js@14.16.42", "", { "dependencies": { "@ovencord/builders": "^1.11.5", "@ovencord/collection": "^2.1.1", "@ovencord/formatters": "^0.6.1", "@ovencord/rest": "^2.5.2", "@ovencord/util": "^1.1.1", "@ovencord/ws": "^2.0.2", "discord-api-types": "^0.38.36" } }, "sha512-odeTINeEgXJp8KmYGvXXk3/6mT1JW6rSlvL1Xrd9peUa5MOZjkK1SV4WafmgR42Oi0SpEH4YDUaTWTqxef1JKg=="],
+
+    "@ovencord/formatters": ["@ovencord/formatters@0.6.1", "", { "dependencies": { "discord-api-types": "^0.38.36" } }, "sha512-oWHeXUEuEVOYxIC3oBHsyxjALkXUN/ADNAQRS2/O75Fu0WbAQaYr9kue8PZfmQZE0QzHurm7QwHNLr0ShAtcOg=="],
+
+    "@ovencord/rest": ["@ovencord/rest@2.5.5", "", { "dependencies": { "@ovencord/collection": "^2.1.1", "@ovencord/util": "^1.1.1", "discord-api-types": "^0.38.36" } }, "sha512-iTNyefk0bH5MXfKJzLooBbM5PdldfQ9sXITBYYCmLtTpXr0n5mmhQnIwEmfb8xvKUlZnKZCQ5LOi1yKHpO6ZDA=="],
+
+    "@ovencord/util": ["@ovencord/util@1.1.3", "", { "dependencies": { "discord-api-types": "^0.38.36" } }, "sha512-MdVsrNlwc8aB7DUrHz+SlbETMbxwN3GCnUJd9iezH6kwA+UmZ9y3Xj2X+3yWYTY1WolmcxEOsNKeZJ+YlDkVUQ=="],
+
+    "@ovencord/ws": ["@ovencord/ws@2.0.2", "", { "dependencies": { "@ovencord/collection": "^2.1.1", "@ovencord/util": "^1.1.1", "discord-api-types": "^0.38.36" } }, "sha512-M89d94yeQkriuaxgcyrgYOJtDtiGut7RQRk/xHEyDlLZjk5rXgPlLOrqg4tLOX7hR28J3Ht2kIb/w6H0/UE79w=="],
+
+    "@types/node": ["@types/node@25.3.0", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A=="],
+
+    "bun-types": ["bun-types@1.3.9", "", { "dependencies": { "@types/node": "*" } }, "sha512-+UBWWOakIP4Tswh0Bt0QD0alpTY8cb5hvgiYeWCMet9YukHbzuruIEeXC2D7nMJPB12kbh8C7XJykSexEqGKJg=="],
+
+    "discord-api-types": ["discord-api-types@0.38.40", "", {}, "sha512-P/His8cotqZgQqrt+hzrocp9L8RhQQz1GkrCnC9TMJ8Uw2q0tg8YyqJyGULxhXn/8kxHETN4IppmOv+P2m82lQ=="],
+
+    "ts-mixer": ["ts-mixer@6.0.4", "", {}, "sha512-ufKpbmrugz5Aou4wcr5Wc1UUFWOLhq+Fm6qa6P0w0K5Qw2yhaUoiWszhCVuNQyNwrlGiscHOmqYoAox1PtvgjA=="],
+
+    "tslib": ["tslib@2.8.1", "", {}, "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="],
+
+    "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
+
+    "zod": ["zod@4.3.6", "", {}, "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="],
+  }
+}
