@@ -13,7 +13,7 @@ setInterval(() => {
         rss: memory.rss,
         heapTotal: memory.heapTotal,
         heapUsed: memory.heapUsed,
-        wsPing: (client.ws as any).ping
+        wsPing: (client.ws as any).ping ?? (client.ws as any).shards?.first()?.ping ?? -1
     }));
 }, 5000);
 
