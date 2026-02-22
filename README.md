@@ -1,15 +1,29 @@
-## Bench-Node 22-02-2026
-<img width="820" alt="Screenshot 2026-02-22 205249" src="https://github.com/user-attachments/assets/51211ff9-5e75-4e4a-96b8-14ee9e46ec50" />
+## Test 1
+<img width="400" alt="Screenshot 2026-02-22 205249" src="https://github.com/user-attachments/assets/51211ff9-5e75-4e4a-96b8-14ee9e46ec50" /> <img width="400" alt="Screenshot 2026-02-22 205306" src="https://github.com/user-attachments/assets/6b73feb5-da25-4d6b-87db-cfabe5fd2080" />
 
-## Bench-Bun 22-02-2026
-<img width="820" alt="Screenshot 2026-02-22 205306" src="https://github.com/user-attachments/assets/6b73feb5-da25-4d6b-87db-cfabe5fd2080" />
+## Test 2
+<img width="400" alt="Screenshot 2026-02-22 225318" src="https://github.com/user-attachments/assets/7b36d74b-40c1-4125-869d-01ff9fdf2e5d" /> <img width="400" alt="Screenshot 2026-02-22 225244" src="https://github.com/user-attachments/assets/ec190716-c240-412d-9304-da756ccdf5e3" />
+
 
 ## Performance Benchmark: Legacy Node.js vs. Ovencord (Bun-Native)
 
+### 📊 Final Head-to-Head: Node.js (Legacy) vs. Ovencord (Bun-Native)
+*Environment: Identical VPS instance, 1 vCPU, 512MB RAM, Production Load.*
+
+| Metric | Node.js + Discord.js (Legacy) | Bun + Ovencord (Native) | Performance Gain |
+| :--- | :--- | :--- | :--- |
+| **JS Heap Used (Active Objects)** | ~18.30 MB | **~7.95 MB** | **-56.5% Memory** |
+| **JS Heap Total (Allocated)** | ~20.10 MB | **~10.30 MB** | **-48.7% Overhead** |
+| **Total RSS (OS Memory)** | ~86.90 MB | **~91.00 MB** | **Stable Baseline**¹ |
+| **Internal Processing Latency** | ~110 ms | **~106 ms** | **Native Response**² |
+| **Build/Transpilation Time** | ~2.5 seconds | **0 seconds** | **Instant (Source-only)** |
+| **Runtime Dependencies** | `undici`, `ws`, `zlib-sync` | **0 (Zero)** | **Pure Native Execution** |
+
+
 | Metric | Node.js + Discord.js (Legacy) | Bun + Ovencord (Native) | Improvement |
 | :--- | :--- | :--- | :--- |
-| **Heap Memory (Used)** | ~17.25 MB | **~9.46 MB** | **-45% Memory Usage** |
-| **Heap Memory (Total)** | ~20.34 MB | **~10.86 MB** | **-46.6% Allocated** |
+| **JS Heap Used (Active Objects)** | ~17.25 MB | **~9.46 MB** | **-45% Memory** |
+| **JS Heap Total (Allocated)** | ~20.34 MB | **~10.86 MB** | **-46.6% Overhead** |
 | **Total RSS (OS Footprint)** | ~86.63 MB | **~90.68 MB** | **Stable Baseline**¹ |
 | **WebSocket Latency** | ~106 ms | **~104 ms** | **Native Efficiency**² |
 | **Build Time** | ~2.5 seconds | **0 seconds** | **Instant (Source-only)** |
