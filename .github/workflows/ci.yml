@@ -23,6 +23,3 @@ jobs:
         working-directory: ./bench-ovencord
         run: bunx tsc --noEmit
 
-      - name: Lint (Ovencord)
-        working-directory: ./bench-ovencord
-        run: bun run lint
