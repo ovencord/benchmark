@@ -1,12 +1,6 @@
+<img width="747" height="889" alt="benchmark_final" src="https://github.com/user-attachments/assets/3cfecac6-fa60-4291-85e5-c4f85dd1eb34" />
 
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/1635b7ab-bc67-456a-8e13-e5953c5fb3f4" />
-
-
-## Test 1
-<img width="400" alt="Screenshot 2026-02-22 205249" src="https://github.com/user-attachments/assets/51211ff9-5e75-4e4a-96b8-14ee9e46ec50" /> <img width="400" alt="Screenshot 2026-02-22 205306" src="https://github.com/user-attachments/assets/6b73feb5-da25-4d6b-87db-cfabe5fd2080" />
-
-## Test 2
-<img width="400" alt="Screenshot 2026-02-22 225318" src="https://github.com/user-attachments/assets/7b36d74b-40c1-4125-869d-01ff9fdf2e5d" /> <img width="400" alt="Screenshot 2026-02-22 225244" src="https://github.com/user-attachments/assets/ec190716-c240-412d-9304-da756ccdf5e3" />
 
 
 ## Performance Benchmark: Legacy Node.js vs. Ovencord (Bun-Native)
