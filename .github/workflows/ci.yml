@@ -15,11 +15,14 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Install Dependencies
+      - name: Install Dependencies (Ovencord)
+        working-directory: ./bench-ovencord
         run: bun install
 
-      - name: Type Check
+      - name: Type Check (Ovencord)
+        working-directory: ./bench-ovencord
         run: bunx tsc --noEmit
 
-      - name: Lint
+      - name: Lint (Ovencord)
+        working-directory: ./bench-ovencord
         run: bun run lint
