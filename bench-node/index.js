@@ -1,4 +1,4 @@
-const { Client, GatewayIntentBits } = require('discord.js');
+import { Client, GatewayIntentBits } from 'discord.js';
 
 // ── Startup time ──────────────────────────────────────────────
 const BOOT_AT = Date.now();

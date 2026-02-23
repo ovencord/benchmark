@@ -22,7 +22,7 @@ setInterval(() => {
     rss: memory.rss,
     heapTotal: memory.heapTotal,
     heapUsed: memory.heapUsed,
-    wsPing: (client.ws as any).ping ?? (client.ws as any).shards?.first()?.ping ?? -1,
+    wsPing: client.ping ?? -1,
     eventCount,
   }));
 }, 5000);
