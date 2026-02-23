@@ -4,7 +4,7 @@
   "module": "index.ts",
   "type": "module",
   "dependencies": {
-    "@ovencord/discord.js": "^14.16.45",
+    "@ovencord/discord.js": "^14.16.46",
     "@ovencord/rest": "^2.5.7",
     "@ovencord/ws": "^2.0.5"
   },
