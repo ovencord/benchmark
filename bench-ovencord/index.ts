@@ -17,7 +17,7 @@ setInterval(() => {
     }));
 }, 5000);
 
-client.on('ready', () => {
+client.on('clientReady', () => {
     console.log(`Bot B (Native) logged in as ${client.user?.tag}`);
 });
 
